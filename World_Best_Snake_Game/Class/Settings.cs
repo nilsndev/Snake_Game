@@ -4,7 +4,7 @@ using System.Text;
 
 namespace World_Best_Snake_Game
 {
-    internal class Settings
+    public class Settings
     {
         public static int Width { get; set; }
         public static int Height { get; set; }
@@ -12,9 +12,9 @@ namespace World_Best_Snake_Game
 
         public Settings()
         {
-            Width = 32;
-            Height = 32;
-            Direction = "left";
+            Width = 16;
+            Height = 16;
+            Direction = "right";
         }
 
     }
